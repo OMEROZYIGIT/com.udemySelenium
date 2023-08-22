@@ -17,6 +17,7 @@ public class DemoQA {
 
         driver.get("https://demoqa.com/");
 
+
         driver.manage().window().maximize();
 
         JavascriptExecutor jsx = (JavascriptExecutor) driver;
